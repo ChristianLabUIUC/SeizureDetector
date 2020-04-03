@@ -19,7 +19,7 @@ The .gzip file contains a dataframe, the following keys are needed in the datafr
 - signalLength - the number of datapoint in this recording
 - signal - the EEG signal, organized in the 2D array, a column contains the signal for a channel.
 
-# Model serving for seizure detection
+# Model for seizure detection
 Run the analysisAll.py to detect seizures in your EEG recordings. 
 Specify your EEG input data as the inBaseDir, and the output data as the outBaseDir.
 The CNN model was imported through getModel.
